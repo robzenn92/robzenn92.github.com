@@ -1,5 +1,5 @@
 # Site settings
-title: Robero Zen
+title: Roberto Zen
 email: roberto dot zen at outlook dot com
 description: >
   Write an awesome description for your new site here. You can edit this
@@ -8,6 +8,7 @@ description: >
 baseurl: ""
 twitter_username: zenzu92
 github_username:  robzenn92
+facebook_username: roberto.zenn92
 
 # Build settings
 markdown: kramdown
