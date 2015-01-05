@@ -121,6 +121,14 @@ a:active {
 		font-size: 30px;
 	}
 
+	.overlay {
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+		padding: 30px 10px;
+		background-image: none;
+	}
+
 	.center {
 		position: relative;
 		top: 0px;
