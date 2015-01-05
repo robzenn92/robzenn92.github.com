@@ -138,7 +138,6 @@ a:active {
         -o-transform: none; /* Opera */
         transform: none;
         width: 100%;
-        padding: 30px;
 	}
 
 	.center .description {
