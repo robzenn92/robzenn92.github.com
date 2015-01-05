@@ -25,7 +25,7 @@ a:active {
 	width: 100%;
 	margin: 0 auto;
 	padding: 0px 0px 0px 0px;
-	background-image: url("http://theflame92.altervista.org/Lorenz/overlay/overlay2.png");
+	background-image: url("../img/overlay.png");
 }
 
 .center {
@@ -59,6 +59,7 @@ a:active {
 
 .center ul {
 	list-style: none;
+	padding: 0px;
 }
 
 .center li {
@@ -118,14 +119,13 @@ a:active {
 @media (max-device-width: 768px) {
 
 	html, body {
-		font-size: 30px;
+		font-size: 45px;
 	}
 
 	.overlay {
 		height: 100%;
 		width: 100%;
 		margin: 0 auto;
-		padding: 30px 10px;
 		background-image: none;
 	}
 
@@ -137,6 +137,28 @@ a:active {
         -ms-transform: none; /* IE 9 */
         -o-transform: none; /* Opera */
         transform: none;
-        padding: 10px;
+        width: 100%;
+        padding: 30px;
+	}
+
+	.center .description {
+		margin-top: 30px;
+	}
+
+	.center li {
+		display: block;
+		margin: 10px;
+	}
+
+	.social-link {
+		margin-top: 10px;
+		font-size: 1.6rem;
+		font-weight: 100;
+		border-width: 1px;
+		border-style: solid;
+		padding: 10px 20px;
+		display: inline-block;
+		color: #ecf0f1;
+		width: 80%;
 	}
 }
