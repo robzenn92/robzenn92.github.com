@@ -6,7 +6,7 @@ html,body {
 	color: #ecf0f1;
 	background: #202020;
 	font-family: "Roboto";
-	font-size: 1rem;
+	font-size: 1.1rem;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
@@ -67,7 +67,7 @@ a:active {
 }
 
 .link {
-	color: #ed0005;
+	color: #e74c3c;
 }
 
 .social-link {
@@ -84,7 +84,6 @@ a:active {
 .link:hover,
 .social-link:hover {
 	cursor: pointer;
-	text-shadow: 0px 0px 1px #ecf0f1;
 }
 
 .social-facebook {
