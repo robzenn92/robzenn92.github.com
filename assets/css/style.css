@@ -123,21 +123,7 @@ a.red-link:active {
 	}
 
 	.overlay {
-		height: 100%;
-		width: 100%;
-		margin: 0 auto;
-		background-image: none;
-	}
-
-	.center {
-		position: relative;
-		top: 0px;
-		-webkit-transform: none; /* Safari and Chrome */
-       	-moz-transform: none; /* Firefox */
-        -ms-transform: none; /* IE 9 */
-        -o-transform: none; /* Opera */
-        transform: none;
-        padding: 0.8rem;
+		padding: 1rem;
 	}
 
 	.center .description {
@@ -146,17 +132,13 @@ a.red-link:active {
 	}
 
 	.center li {
-		display: block;
+		display: inline-block;
 	}
 
 	.social-link {
 		margin-top: 10px;
 		font-weight: 100;
-		border-width: 1px;
-		border-style: solid;
 		padding: 10px 20px;
 		display: inline-block;
-		color: #ecf0f1;
-		width: 80%;
 	}
 }
